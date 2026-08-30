@@ -153,41 +153,48 @@ document.addEventListener('DOMContentLoaded', () => {
       renderizar();
     });
   }
-  const destaques = [
-    {
-      titulo: 'Enigma do Medo',
-      tipo: 'Destaque',
-      data: 'Já disponível',
-      imagem: 'https://cdn.akamai.steamstatic.com/steam/apps/1507580/header.jpg',
-      descricao: 'Mia investiga o desaparecimento do pai em uma aventura de investigação paranormal.',
-      link: 'https://store.steampowered.com/app/1507580/Enigma_do_Medo/'
-    },
-    {
-      titulo: 'The Blood of Dawnwalker',
-      tipo: 'Próximo lançamento',
-      data: '2 de setembro de 2026',
-      imagem: 'https://cdn.akamai.steamstatic.com/steam/apps/3751260/header.jpg',
-      descricao: 'RPG de fantasia sombria em mundo aberto, com um protagonista que é humano de dia e vampiro à noite.',
-      link: 'https://store.steampowered.com/app/1569580/Blue_Prince/'
-    },
-    {
-      titulo: 'SILENT HILL: Townfall',
-      tipo: 'Próximo lançamento',
-      data: '23 de setembro de 2026',
-      imagem: 'https://cdn.akamai.steamstatic.com/steam/apps/1636440/header.jpg',
-      descricao: 'Um novo capítulo de terror psicológico ambientado na misteriosa ilha de St. Amelia.',
-      link: 'https://store.steampowered.com/app/1636440/SILENT_HILL_Townfall/'
-    },
-    {
-      titulo: 'CONTROL Resonant',
-      tipo: 'Próximo lançamento',
-      data: '24 de setembro de 2026',
-      imagem: 'https://cdn.akamai.steamstatic.com/steam/apps/3669870/header.jpg',
-      descricao: 'Dylan Faden enfrenta uma ameaça cósmica enquanto explora uma Manhattan completamente distorcida.',
-      link: 'https://store.steampowered.com/app/3669870/CONTROL_Resonant/'
-    }
-  ];
-
+const destaques = [
+  {
+    titulo: 'Enigma do Medo',
+    tipo: 'Destaque',
+    data: 'Já disponível',
+    imagem: 'https://cdn.akamai.steamstatic.com/steam/apps/1507580/header.jpg',
+    descricao: 'Mia investiga o desaparecimento do pai em uma aventura de investigação paranormal.',
+    link: 'https://store.steampowered.com/app/1507580/Enigma_do_Medo/'
+  },
+  {
+    titulo: 'Blue Prince',
+    tipo: 'Destaque',
+    data: 'Já disponível',
+    imagem: 'https://cdn.akamai.steamstatic.com/steam/apps/1569580/header.jpg',
+    descricao: 'Explore uma mansão misteriosa que muda constantemente enquanto tenta descobrir seus segredos.',
+    link: 'https://store.steampowered.com/app/1569580/Blue_Prince/'
+  },
+  {
+    titulo: 'Red Dead Redemption 2',
+    tipo: 'Destaque',
+    data: 'Já disponível',
+    imagem: 'https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg',
+    descricao: 'Viva uma grande aventura no Velho Oeste acompanhando Arthur Morgan e a gangue Van der Linde.',
+    link: 'https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/'
+  },
+  {
+    titulo: 'Grand Theft Auto V',
+    tipo: 'Destaque',
+    data: 'Já disponível',
+    imagem: 'https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg',
+    descricao: 'Explore Los Santos em uma história de crimes, golpes e muita confusão com três protagonistas.',
+    link: 'https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/'
+  },
+  {
+    titulo: 'CONTROL',
+    tipo: 'Destaque',
+    data: 'Já disponível',
+    imagem: 'https://cdn.akamai.steamstatic.com/steam/apps/870780/header.jpg',
+    descricao: 'Assuma o controle de Jesse Faden e enfrente uma força sobrenatural dentro da misteriosa Federal Bureau of Control.',
+    link: 'https://store.steampowered.com/app/870780/Control_Ultimate_Edition/'
+  }
+];
   const faixa = document.getElementById('carrossel-faixa');
   const dots = document.getElementById('carrossel-dots');
   const anterior = document.getElementById('carrossel-anterior');
