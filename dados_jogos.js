@@ -42,7 +42,7 @@ const jogos = [
   {
     id: 'the-choicer-voicer',
     titulo: 'The Choicer Voicer',
-    imagem: './src/img/thechoicervoicer.png',
+    imagem: 'https://img.itch.zone/aW1nLzI1OTQ5NzcyLnBuZw==/original/vEa5Uu.png',
     link: 'https://yeahmaybe.itch.io/the-choicer-voicer',
     formato: 'web',
     tags: ['partygame'],
@@ -180,7 +180,7 @@ const jogos = [
   {
     id: 'valorant',
     titulo: 'VALORANT',
-    imagem: './src/img/valorant.jpg',
+    imagem: 'https://www.riotgames.com/darkroom/800/9691de74fc891930fdb7d200d72396ec:36d04b23935d6c621156e13d621ffc15/v-lockup-horizontal-pos-off-white.png',
     link: 'https://playvalorant.com/',
     formato: 'web',
     tags: ['fps', 'competitivo', 'multiplayer'],
@@ -257,7 +257,7 @@ const jogos = [
   {
     id: 'genshin-impact',
     titulo: 'Genshin Impact',
-    imagem: './src/img/genshin.jpg',
+    imagem: 'https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200114/2020011418452745053.jpg',
     link: 'https://genshin.hoyoverse.com/',
     formato: 'web',
     tags: ['rpg', 'anime', 'openworld'],
