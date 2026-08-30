@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
       data: '2 de setembro de 2026',
       imagem: 'https://cdn.akamai.steamstatic.com/steam/apps/3751260/header.jpg',
       descricao: 'RPG de fantasia sombria em mundo aberto, com um protagonista que é humano de dia e vampiro à noite.',
-      link: 'https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/'
+      link: 'https://store.steampowered.com/app/1569580/Blue_Prince/'
     },
     {
       titulo: 'SILENT HILL: Townfall',
