@@ -3,32 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nightbyte - Jogos Indies</title>
+    <title>Nightbyte </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul class="menu">
-            <li><a href="index.html" class="active">HOME</a></li>
-            <li><a href="sobre.html">SOBRE</a></li>
-            <li><a href="contato.html">CONTATO</a></li>
-        </ul>
+ <nav>
+        <div class="nav-conteudo">
+            <a href="index.html" class="logo-link">
+                <img src="./src/img/nightbyte-logo.png" alt="Nightbyte" class="logo-img">
+            </a>
+            <ul class="menu">
+                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </div>
     </nav>
+
     <div class="container">
         <h1>Nightbyte</h1>
-        <p>Um blog pra compartilhar jogos indie.</p>
-        
-         <div class="filtro-status">
+        <p>Jogos independentes, grandes lançamentos e experiências que merecem ser descobertas.</p>
+
+        <div class="filtro-status">
             <span id="filtro-texto">Mostrando todos os jogos</span>
             <button id="btn-limpar" class="btn-limpar" style="display:none;">Mostrar todos</button>
         </div>
+
+        <section class="lancamentos" aria-labelledby="titulo-lancamentos">
+            <div class="secao-titulo">
+                <div class="carrossel-controles">
+                    <button class="carrossel-btn" id="carrossel-anterior" type="button" aria-label="Jogo anterior">‹</button>
+                    <button class="carrossel-btn" id="carrossel-proximo" type="button" aria-label="Próximo jogo">›</button>
+                </div>
+            </div>
+
+            <div class="carrossel" id="carrossel">
+                <div class="carrossel-faixa" id="carrossel-faixa"></div>
+            </div>
+
+            <div class="carrossel-dots" id="carrossel-dots" aria-label="Navegação do carrossel"></div>
+        </section>
 
         <div class="grid" id="grid-jogos"></div>
 
         <div class="paginacao" id="paginacao"></div>
     </div>
-    </div>
+
+    <script src="dados_jogos.js"></script>
     <script src="script.js"></script>
-     <script src="dados_jogos.js"></script>
 </body>
 </html>
