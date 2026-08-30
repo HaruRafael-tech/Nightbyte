@@ -142,3 +142,78 @@ form button {
 form button:hover {
   background-color: #b98ee6;
 }
+.paginacao {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 28px 0 10px;
+}
+.pagina-btn {
+  font-family: inherit;
+  font-size: 0.9em;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid #362a44;
+  background-color: #1c1524;
+  color: #cfa8f0;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.pagina-btn:hover {
+  background-color: #362a44;
+  color: #ffffff;
+}
+
+.pagina-btn.ativo {
+  background-color: #a374d6;
+  border-color: #a374d6;
+  color: #ffffff;
+  font-weight: bold;
+}
+form {
+  max-width: 500px;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #cbbedb;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  background-color: #1c1524;
+  border: 1px solid #362a44;
+  color: #ece6f5;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+form textarea {
+  min-height: 120px;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #a374d6;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #b98ee6;
+}
+.jogo:hover {
+  transform: translateY(-4px);              
+  box-shadow: 0 10px 22px rgba(0,0,0,0.4);   
+  border-color: #a374d6;                     
+}
